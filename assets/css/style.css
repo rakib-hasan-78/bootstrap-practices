@@ -1,0 +1,38 @@
+.card-image {
+    height: 250px;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the entire image covers the container */
+    object-position: center; /* Center the image within the container */
+}
+.card-flex{
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+.custom-mg{
+    width: 100%;
+    height: 360px;
+    position: relative;
+    z-index: -2;
+}
+.carousel-item h2 {
+    position: absolute;
+    left: 50%;
+    z-index: 91;
+    top: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+.carousel-item img{
+    height: 350px;
+}
